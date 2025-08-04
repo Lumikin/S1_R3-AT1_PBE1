@@ -1,10 +1,10 @@
 // Projeto 2 - Servidor de Produtos/app.js
 // ---
-// Chamando o Express para ultilizar ele 
+// Variavel para usar o Express
 const express = require("express");
 
-//Criando uma instancia do express
-const porta = 80 //Variavel para ultilizar a porta padrao HTTP
+// Iniciando o Express para o servidor 
+const porta = 80 //Porta padrao HTTP
 const Server = express()
 Server.listen(porta, () => {
     console.log(`Bem Vindo ao Servidor de Produtos, o servidor iniciou na porta ${porta}`)
