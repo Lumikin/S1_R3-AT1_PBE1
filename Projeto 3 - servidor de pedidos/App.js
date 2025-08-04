@@ -4,9 +4,8 @@
 const express = require("express");
 
 //Inicializando o Express
-const porta = 80 //Porta HTTP
-const Server = express()
+const porta = 80; //Porta HTTP
+const Server = express();
 Server.listen(porta, () => {
     console.log(`Bem Vindo ao servidor de pedidos, o servidor esta rodando na porta ${porta}`)
-})
- 
+});
